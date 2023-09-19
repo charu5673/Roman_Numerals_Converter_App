@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrd"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/rtd"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="107dp"
+        android:backgroundTint="#405A63"
+        android:text="Roman numeral to Decimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dtr"
+        android:layout_width="197dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#405A63"
+        android:text="Decimal to Roman Numeral"
+        app:layout_constraintEnd_toEndOf="@+id/rtd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rtd"
+        app:layout_constraintTop_toBottomOf="@+id/rtd" />
+</androidx.constraintlayout.widget.ConstraintLayout>
